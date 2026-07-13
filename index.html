@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zea Beauty — Skjønnhet med presisjon og omtanke</title>
+<meta name="description" content="Zea Beauty i Sandefjord — eksklusive behandlinger med fokus på naturlig skjønnhet. Bryn, vipper, ansiktsbehandlinger, PMU, injeksjon og massasje av sertifisert behandler.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="icon" href="images/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css?v=12">
+</head>
+<body>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="wrap nav">
+    <a href="index.html" class="logo" aria-label="Zea Beauty forside"><img src="images/logo-mark.png" class="logo-img" alt="Zea Beauty"></a>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html" class="active" data-scroll="hjem">Hjem</a></li>
+        <li><a href="behandlinger.html">Behandlinger</a></li>
+        <li><a href="priser.html">Priser</a></li>
+        <li><a href="om-meg.html">Om meg</a></li>
+        <li><a href="index.html#salongen" data-scroll="salongen">Salongen</a></li>
+        <li><a href="bestill.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <a href="bestill.html" class="nav-cta">Bestill time</a>
+    <button class="burger" id="burger" aria-label="Meny"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hjem" data-nav="hjem">
+  <div class="hero-copy" id="hjem-tekst">
+    <div class="hero-inner reveal">
+      <span class="eyebrow">Zea Beauty · Sandefjord</span>
+      <h1>Skjønnhet med<br>presisjon og<br>omtanke</h1>
+      <div class="rule"></div>
+      <p>Eksklusive behandlinger med fokus på naturlig skjønnhet, perfeksjon i hver detalj og en opplevelse utenom det vanlige.</p>
+      <div class="hero-actions">
+        <a href="bestill.html" class="btn btn-solid">Bestill time</a>
+        <a href="bestill.html" class="btn btn-outline">Gratis konsultasjon</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-media">
+    <img class="hero-fallback" src="images/hero.jpg" alt="Zea Beauty resepsjon med varm belysning og buede detaljer"
+         onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','images/hero.mp4 eller hero.jpg');this.style.display='none'">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="images/hero.jpg">
+      <source src="images/hero.mp4" type="video/mp4">
+    </video>
+    <!-- Mobile welcome: video underlay + fading, shimmering logo -->
+    <div class="hero-welcome">
+      <div class="hw-inner">
+        <div class="led-logo"><img class="lw-base" src="images/logo-base.png" alt="Zea Beauty"><img class="lw-shine" src="images/logo-white.png" alt="" aria-hidden="true"></div>
+        <p class="hw-slogan">Eksklusiv skjønnhet i Sandefjord</p>
+        <a class="scroll-cue hw-scroll" href="#hjem-tekst" aria-label="Bla nedover"><span>Bla ned</span><i></i></a>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#behandlinger" aria-label="Bla nedover"><span>Bla ned</span><i></i></a>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="behandlinger">
+  <div class="wrap">
+    <div class="services-grid">
+      <div class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M6 30c6-9 16-13 26-11 4 .8 8 2.6 10 5" stroke-linecap="round"/><path d="M10 27c4-4 9-6 15-5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Brows</h3>
+        <p>Forming, farging, bryns laminering og styling for perfekte bryn.</p>
+        <a href="behandlinger.html#brows" class="more">Les mer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M6 30c5-8 12-12 18-12s13 4 18 12" stroke-linecap="round"/><path d="M14 26l-3 6M20 24l-1.5 8M27 24l1.5 8M34 26l3 6" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Lashes</h3>
+        <p>Vippeløft, vippe extensions og farging som fremhever dine øyne.</p>
+        <a href="behandlinger.html#lashes" class="more">Les mer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M10 22c4-4 24-4 28 0-3 8-8 12-14 12s-11-4-14-12z" stroke-linejoin="round"/><path d="M10 22c3-2 25-2 28 0" stroke-linecap="round"/></svg>
+        </div>
+        <h3>PMU</h3>
+        <p>Permanent makeup som gir et naturlig og varig resultat.</p>
+        <a href="behandlinger.html#pmu" class="more">Les mer <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="service reveal">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><rect x="8" y="8" width="13" height="13" rx="2.5"/><rect x="27" y="8" width="13" height="13" rx="2.5"/><rect x="8" y="27" width="13" height="13" rx="2.5"/><rect x="27" y="27" width="13" height="13" rx="2.5"/></svg>
+        </div>
+        <h3>Og mye mer</h3>
+        <p>Ansikt, PMU, injeksjon, massasje, makeup og voksing.</p>
+        <a href="behandlinger.html" class="more">Se alle behandlinger <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TAILORED SPLIT -->
+<section class="split" id="salongen" data-nav="salongen">
+  <div class="split-media">
+    <img src="images/room.jpg" alt="Behandlingsrom hos Zea Beauty med rund speilbelysning"
+         onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','images/room.jpg — behandlingsrom');this.style.display='none'">
+  </div>
+  <div class="split-body reveal">
+    <span class="eyebrow">En opplevelse for deg</span>
+    <h2>Skreddersydd for<br>din skjønnhet</h2>
+    <p>Hos Zea Beauty handler det ikke bare om behandling — det handler om deg. Vi skreddersyr hver behandling etter dine behov og ønsker, i rolige og luksuriøse omgivelser designet for total avslapning.</p>
+    <div><a href="om-meg.html" class="btn btn-pink">Om salongen</a></div>
+  </div>
+</section>
+
+<!-- ABOUT ZEA -->
+<section class="about" id="om-meg">
+  <div class="about-body reveal">
+    <span class="eyebrow">Om meg</span>
+    <h2>Lidenskap for<br>detaljer</h2>
+    <p>Jeg heter Zeineb, og er sertifisert behandler med lidenskap for skjønnhet og presisjon. Mitt mål er å fremheve din naturlige skjønnhet og få deg til å føle deg som den beste versjonen av deg selv.</p>
+    <div><a href="om-meg.html" class="btn btn-outline">Les mer om meg</a></div>
+  </div>
+  <div class="about-media">
+    <img src="images/zeineb.jpg" alt="Zeineb, sertifisert behandler og grunnlegger av Zea Beauty"
+         onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','images/zeineb.jpg — portrett av Zeineb');this.style.display='none'">
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="galleri">
+  <div class="gallery-grid">
+    <a href="behandlinger.html#brows" aria-label="Brows"><img src="images/brows.jpg" alt="Perfekt formede bryn" onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','brows');this.remove()"></a>
+    <a href="behandlinger.html#lashes" aria-label="Lashes"><img src="images/lashes.jpg" alt="Vipper nærbilde" onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','lashes');this.remove()"></a>
+    <a href="om-meg.html" aria-label="Salong"><img src="images/room.jpg" alt="Zea Beauty salong detalj" onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','salong');this.remove()"></a>
+    <a href="behandlinger.html#pmu" aria-label="Lips"><img src="images/lips.jpg" alt="Lepper nærbilde" onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','lips');this.remove()"></a>
+    <a href="om-meg.html" aria-label="Produkter"><img src="images/produkter.jpg" alt="Produkter og blomster" onerror="this.parentElement.classList.add('ph');this.parentElement.setAttribute('data-label','produkter');this.remove()"></a>
+  </div>
+  <div class="insta reveal">
+    <div class="insta-handle">@zeabeauty_</div>
+    <a href="https://instagram.com" target="_blank" rel="noopener" class="btn btn-outline">Følg oss på Instagram</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="kontakt">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-col reveal">
+        <h4>Besøk oss</h4>
+        <p>Zea Beauty</p>
+        <p>Storgata 12</p>
+        <p>3210 Sandefjord</p>
+      </div>
+      <div class="foot-col reveal">
+        <h4>Åpningstider</h4>
+        <div class="foot-hours"><span>Mandag – Fredag</span><span>09:00 – 19:00</span></div>
+        <div class="foot-hours"><span>Lørdag</span><span>10:00 – 16:00</span></div>
+        <div class="foot-hours"><span>Søndag</span><span>Stengt</span></div>
+      </div>
+      <div class="foot-col reveal">
+        <h4>Kontakt</h4>
+        <p>+47 123 45 678</p>
+        <p>hei@zeabeauty.no</p>
+      </div>
+      <div class="foot-col reveal">
+        <div class="foot-map">
+          <iframe title="Kart Sandefjord" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=10.1950%2C59.1230%2C10.2450%2C59.1420&layer=mapnik&marker=59.1313%2C10.2166"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <a href="index.html" class="logo"><img src="images/logo-mark.png" class="logo-img" alt="Zea Beauty"></a>
+      <ul class="foot-menu">
+        <li><a href="index.html">Hjem</a></li>
+        <li><a href="behandlinger.html">Behandlinger</a></li>
+        <li><a href="priser.html">Priser</a></li>
+        <li><a href="om-meg.html">Om meg</a></li>
+        <li><a href="index.html#salongen">Salongen</a></li>
+        <li><a href="bestill.html">Kontakt</a></li>
+      </ul>
+      <div class="foot-social">
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.1.4.3 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.1-1 .3-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.1-.4-.3-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.1 1-.3 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.2.8-.4.3-.6.7-.8 1.2-.2.4-.3 1-.4 2.1C2.7 9.8 2.7 10.2 2.7 12s0 2.2.1 3.4c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.2.3.4.7.6 1.2.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.2-.8.4-.3.6-.7.8-1.2.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-3.4s0-2.2-.1-3.4c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.2-.3-.4-.7-.6-1.2-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zm0 3.1a4.9 4.9 0 110 9.8 4.9 4.9 0 010-9.8zm0 8.1a3.2 3.2 0 100-6.4 3.2 3.2 0 000 6.4zm6.3-8.3a1.15 1.15 0 11-2.3 0 1.15 1.15 0 012.3 0z"/></svg></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8.5V6.7c0-.8.2-1.2 1.4-1.2H17V2.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.1H8v3.1h2.6V22H14v-8.4h2.6l.4-3.1H14z"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js?v=4"></script>
+</body>
+</html>
